@@ -24,7 +24,7 @@
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |이름|  [하태준](https://github.com/htj7425)  |  [김재완](https://github.com/jaewan0091)  |  [유지인](https://github.com/youjiin0325)  |  [정다산](https://github.com/jds0024)  |  [최준현](https://github.com/jun-hyeon)  |
 |별명|태준팡|래퍼|쿠마몬|헬창|비둘기|
-|MBTI|ESTP|INFP|ISFP|INTP|ISTJ|
+|MBTI|ESFP|INFP|ISFP|INTP|ISTJ|
 
 <br/> <br/> 
 
