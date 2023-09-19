@@ -12,9 +12,11 @@
  
 ## 팀원
 
-|LEADER|MEMBER|MEMBER|MEMBER|MEMBER|
-| :---: | :---: | :---: | :---: | :---: |
-|  [하태준](https://github.com/htj7425)  |  [김재완](https://github.com/jaewan0091)  |  [유지인](https://github.com/youjiin0325)  |  [정다산](https://github.com/jds0024)  |  [최준현](https://github.com/jun-hyeon)  |
+|       |LEADER|MEMBER|MEMBER|MEMBER|MEMBER|
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|이름|  [하태준](https://github.com/htj7425)  |  [김재완](https://github.com/jaewan0091)  |  [유지인](https://github.com/youjiin0325)  |  [정다산](https://github.com/jds0024)  |  [최준현](https://github.com/jun-hyeon)  |
+|별명|태준팡||||
+|MBTI|ESTP||||
 
 <br/> <br/> 
 
