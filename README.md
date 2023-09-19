@@ -20,7 +20,7 @@
 
 <br/>
  
-## 팀 소개
+## 🫡 팀 소개 
 
 [👉 Team6 - Notion 👈](https://likelion.notion.site/6-Hello-World-084511d6876342ad937717ad868b06ab) 
 
