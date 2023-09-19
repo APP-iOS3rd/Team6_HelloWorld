@@ -1,20 +1,22 @@
+<div align="center">
+	
 # Team6_HelloWorld!
  
   ![header](https://capsule-render.vercel.app/api?type=waving&height=300&&text=Team6%20HelloWorld%20&desc=2023%20LIKELION%20APP-IOS3rd&color=auto)
 
 
-<div align="center">
-	💫 Tech Stack 💫
-	<div>
-		<br/>
-	</div>
- 	<div align="center">
-		<img src="https://img.shields.io/badge/Xcode-147EFB?style=flat&logo=Xcode&logoColor=white" />
-		<img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=Swift&logoColor=white" />
-		<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
-		<img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white" />
-	</div>
+
+💫 Tech Stack 💫
+<div>
+<br/>
 </div>
+ <div align="center">
+	<img src="https://img.shields.io/badge/Xcode-147EFB?style=flat&logo=Xcode&logoColor=white" />
+	<img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=Swift&logoColor=white" />
+	<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
+	<img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white" />
+</div>
+
 
 <br/>
  
@@ -54,7 +56,7 @@
 </pre>		
 
 
-
+</div>
 
 
 
