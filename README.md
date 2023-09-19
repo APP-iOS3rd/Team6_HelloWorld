@@ -1,6 +1,6 @@
 # Team6_HelloWorld
  2023 LikeLion APP-iOS3rd Team6_HelloWorld
-  ![header](https://capsule-render.vercel.app/api?type=waving&height=400&&text=Team6_HelloWorld%20&desc=2023%20LIKELION%20APP-IOS3rd&color=auto)
+  ![header](https://capsule-render.vercel.app/api?type=waving&height=300&&text=Team6%20HelloWorld%20&desc=2023%20LIKELION%20APP-IOS3rd&color=auto)
 
 
 <div align="left">
