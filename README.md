@@ -20,13 +20,16 @@
  
 ## 팀원
 
+[👉 Team6 - Notion 👈](https://likelion.notion.site/6-Hello-World-084511d6876342ad937717ad868b06ab) 
+
 |       |LEADER|MEMBER|MEMBER|MEMBER|MEMBER|
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |이름|  [하태준](https://github.com/htj7425)  |  [김재완](https://github.com/jaewan0091)  |  [유지인](https://github.com/youjiin0325)  |  [정다산](https://github.com/jds0024)  |  [최준현](https://github.com/jun-hyeon)  |
 |별명|태준팡|래퍼|쿠마몬|헬창|비둘기|
 |MBTI|ESFP|INFP|ISFP|INTP|ISTJ|
 
-<br/> <br/> 
+<br/> 
+<br/> 
 
 ## 💡 Introduce
 > ### 🔥 팀 목표
@@ -49,3 +52,10 @@
  2. 좋은 정보 공유하기!!!
  3. 수업 끝나고 서로 피드백 해주기!!! 
 </pre>		
+
+
+
+
+
+
+
