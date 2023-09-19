@@ -14,7 +14,7 @@
 
 |LEADER|MEMBER|MEMBER|MEMBER|MEMBER|
 | :---: | :---: | :---: | :---: | :---: |
-|  [하태준](https://github.com/htj7425)  |  김재완  |  유지인  |  [정다산](https://github.com/jds0024)  |  [최준현](https://github.com/jun-hyeon)  |
+|  [하태준](https://github.com/htj7425)  |  김재완  |  [유지인](https://github.com/youjiin0325)  |  [정다산](https://github.com/jds0024)  |  [최준현](https://github.com/jun-hyeon)  |
 
 <br/> <br/> 
 
