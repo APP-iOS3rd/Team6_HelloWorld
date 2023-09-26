@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9589E88B-B3DC-42C8-9B94-C2ACDA705209"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "442AFE95-FD78-4585-B0FA-9E1B96DFF3C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "codeREVIEW/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "442AFE95-FD78-4585-B0FA-9E1B96DFF3C1 - 5e8e5dbac62319ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "codeREVIEW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yujiin/Documents/GitHub/x_codeProjects/practice/course/codeREVIEW/codeREVIEW/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "442AFE95-FD78-4585-B0FA-9E1B96DFF3C1 - 5e8e5dbac623182a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "codeREVIEW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yujiin/Documents/GitHub/x_codeProjects/practice/course/codeREVIEW/codeREVIEW/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "442AFE95-FD78-4585-B0FA-9E1B96DFF3C1 - 5e8e5dbac62319ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "codeREVIEW"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yujiin/Documents/GitHub/x_codeProjects/practice/course/codeREVIEW/codeREVIEW/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
