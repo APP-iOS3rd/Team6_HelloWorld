@@ -48,28 +48,29 @@ import UIKit
 //student2.score3 = 100
 //student2
 //
-////Class 예제 03
-////
-////학생정보 관리
-////초기화한 학생의 정보를 화면에 출력하는 show()메소드를
-////Student 클래스 안에 작성하고 호출하여 학생의 정보를 입력
+//Class 예제 03
+//
+//학생정보 관리
+//초기화한 학생의 정보를 화면에 출력하는 show()메소드를
+//Student 클래스 안에 작성하고 호출하여 학생의 정보를 입력
 //student1.show()
+
+
+
+
+//Class 예제 04
 //
-//
-//
-////Class 예제 04
-////
-////Person 클래스를 작성하세요
-////Person 클래스는 다음과 같은 프로퍼티와, 메소드를 가지고 있습니다
-////속성(프로퍼티) : 접근지정자, 타입, 변수명, 설명
-////이름 (name)
-////나이 (age)
-////기능(메소드) : 이름, 리턴타입, 매개변수, 설명
-////이름과 나이로 초기화 한다 (init)
-////이름을 가져온다 getName
-////이름을 저장 또는 변경한다 setName
-////나이를 가져온다 getAge
-////나이를 저장 또는 변경한다 setAge
+//Person 클래스를 작성하세요
+//Person 클래스는 다음과 같은 프로퍼티와, 메소드를 가지고 있습니다
+//속성(프로퍼티) : 접근지정자, 타입, 변수명, 설명
+//이름 (name)
+//나이 (age)
+//기능(메소드) : 이름, 리턴타입, 매개변수, 설명
+//이름과 나이로 초기화 한다 (init)
+//이름을 가져온다 getName
+//이름을 저장 또는 변경한다 setName
+//나이를 가져온다 getAge
+//나이를 저장 또는 변경한다 setAge
 //
 //class Person {
 //    var name : String = ""
@@ -115,21 +116,21 @@ import UIKit
 //print("새로운 학생", newPerson1.show())
 //
 //
-////Class 예제 05
-////
-////Calculator 클래스를 작성하세요.
-////Calculator 클래스는 다음과 같은 필드와 다음과 같은 메소드를 가지고 있습니다.
-////속성(프로퍼티) : 접근지정자, 타입, 변수명, 설명
-////첫 번째 정수 (num1)
-////두 번째 정수 (num2)
-////기능(메소드) : 이름, 리턴타입, 매개변수, 설명
-////두 정수를 가지고 초기화 한다 (init)
-////num1 값을 저장 및 변경 한다 (setNum1)
-////num2 값을 저장 및 변경 한다 (setNum2)
-////num1 + num2 값을 반환 (sum)
-////num1 - num2 값을 반환 (sub)
-////num1 * num2 값을 반환 (mul)
-////num1 / num2 값을 반환 (div)
+//Class 예제 05
+//
+//Calculator 클래스를 작성하세요.
+//Calculator 클래스는 다음과 같은 필드와 다음과 같은 메소드를 가지고 있습니다.
+//속성(프로퍼티) : 접근지정자, 타입, 변수명, 설명
+//첫 번째 정수 (num1)
+//두 번째 정수 (num2)
+//기능(메소드) : 이름, 리턴타입, 매개변수, 설명
+//두 정수를 가지고 초기화 한다 (init)
+//num1 값을 저장 및 변경 한다 (setNum1)
+//num2 값을 저장 및 변경 한다 (setNum2)
+//num1 + num2 값을 반환 (sum)
+//num1 - num2 값을 반환 (sub)
+//num1 * num2 값을 반환 (mul)
+//num1 / num2 값을 반환 (div)
 //class Calculator {
 //    var num1 : Int = 0
 //    var num2 : Int = 0
@@ -160,13 +161,13 @@ import UIKit
 //    
 //}
 //
-////Class 예제 05-1
-////
-////Calculator 클래스를 작성하세요.
-////2개의 매개변수를 넘겨받는 초기화를 이용해 객체 cal을 만드세요.
-////cal객체의 num1과 num2를 더한 값을 출력하세요.
-////cal객체의 num1값은 75, num2의 값은 5로 수정하세요.
-////cal객체의 num1과 num2를 뺀 값, 곱한 값, 나눈 값을 출력하세요.
+//Class 예제 05-1
+//
+//Calculator 클래스를 작성하세요.
+//2개의 매개변수를 넘겨받는 초기화를 이용해 객체 cal을 만드세요.
+//cal객체의 num1과 num2를 더한 값을 출력하세요.
+//cal객체의 num1값은 75, num2의 값은 5로 수정하세요.
+//cal객체의 num1과 num2를 뺀 값, 곱한 값, 나눈 값을 출력하세요.
 //var myCal = Calculator(num1: 10, num2: 5)
 //myCal.sum() // +
 //myCal.num1 = 75
@@ -175,10 +176,10 @@ import UIKit
 //myCal.mul() // *
 //myCal.div() // /
 //
-////Class 예제 06
-////
-////다음 예시와 같이 출력되도록 TV 클래스를 작성하세요.
-////
+//Class 예제 06
+//
+//다음 예시와 같이 출력되도록 TV 클래스를 작성하세요.
+//
 //
 //class Tv {
 //    var name: String = ""
@@ -204,33 +205,33 @@ import UIKit
 //items.first// 배열의 0번째 인덱스 확인
 //items.removeLast()//인덱스의 마지막번째 삭제
 
-////예제 1
-//var arrayNumbers:[Int] = []
-//
-//for _ in 1...10 {
-//    var randomNumbers = Int.random(in: 1...20)
-//    arrayNumbers.append(randomNumbers)
-//
-//}
-////데이터 전체 출력
-//print(arrayNumbers)
-//
-////4번째 인덱스 +9번째 인덱스
-//print(arrayNumbers[4] + arrayNumbers[9])
-//
-////데이터 결과 값
-//var ar:Int = 0
-//func arraySum() ->Int {
-//    for _ in 1...10 {
-//        var randomN = Int.random(in: 1...20)
-//        ar += randomN
-//    }
-//    return ar
-//}
-//print(arraySum())
-//
-////데이터 평균 값
-//print(Float(arraySum() / 10))
+//예제 1
+var arrayNumbers:[Int] = []
+
+for _ in 1...10 {
+    var randomNumbers = Int.random(in: 1...20)
+    arrayNumbers.append(randomNumbers)
+
+}
+//데이터 전체 출력
+print(arrayNumbers)
+
+//4번째 인덱스 +9번째 인덱스
+print(arrayNumbers[4] + arrayNumbers[9])
+
+//데이터 결과 값
+var ar:Int = 0
+func arraySum() ->Int {
+    for _ in 1...10 {
+        var randomN = Int.random(in: 1...20)
+        ar += randomN
+    }
+    return ar
+}
+print(arraySum())
+
+//데이터 평균 값
+print(Float(arraySum() / 10))
 
 
 
@@ -251,7 +252,7 @@ import UIKit
 //        arrayNumber.append(randomN)
 //    }
 //}
-
+//
 //print("배열에 들어있는 짝수는 \(arrayNumber.sorted()) 입니다.")
 
 
@@ -279,3 +280,102 @@ if let lastValue = sortedArray.last {
     print("배열이 비어있습니다")
 }
     
+//예제 5
+var newArray : [Int] = []
+
+for _ in 1...10 {
+    var randomNumber = Int.random(in: 1...10)
+    newArray.append(randomNumber)
+   
+}
+
+var sortedArr =  newArray.sorted()
+var minN:Int = 0
+
+if let firstNumber = sortedArr.first {
+    minN = firstNumber
+    print(minN)
+    print("배열에서 가장 작은 수는 \(minN)입니다")
+}else {
+    print("???")
+}
+
+//예제 6
+//짝수 수박 홀수 수박수
+var waterM : [String] = ["수", "박"]
+print("숫자를 입력하세요:", terminator: "")
+var array = ""
+var cnt = 0
+if let input = readLine(), let number = Int(input) {
+    var num1 = number
+    if num1 % 2 == 0 {
+       
+        let str = String(repeating: waterM.joined(), count: num1/2)
+        array = str
+        print(array)
+    }else {
+        let str = String(repeating: waterM.joined(), count: num1/2)
+        array = str + waterM[0]
+        print(array)
+    }
+}
+
+
+//예제 7
+
+var num: Int = 1
+var nums : Int = 0
+var newNums: [Int] = []
+
+for _ in 1...10 {
+    print("\(num)번째의 정수를 입력하세요: ", terminator: "")
+    
+    if  let input = Int(readLine()!) {
+        num += 1
+        nums += input
+        
+        if input % 3 == 0 {
+            newNums.append(input)
+        }
+    }
+    print()
+}
+
+print("3의 배수인 정수: \(newNums)")
+
+
+//예제 8
+var n = 1
+var originAns = [1, 1, 4, 2, 3]
+var newAns: [String] = []
+var cnt = 0
+var grade = 0
+for i in 0..<originAns.count {
+    print("\(n)번 답: ", terminator: "")
+    
+    if let input = Int(readLine()!) {
+        if originAns[i] == input {
+            newAns.append("O")
+            cnt += 1
+        }else {
+            
+            newAns.append("X")
+        }
+        
+        n += 1
+    }
+        grade =  cnt * 20
+}
+
+print("\(newAns) 총점은: \(grade)")
+
+//예제 9
+
+var starArray = [3, 4, 4, 2, 1]
+var star = "*"
+var howMany = ""
+
+for i in 0..<starArray.count {
+        howMany = String(repeating: star, count: starArray[i] )
+    print("\(starArray[i]): \(howMany)")
+   }
