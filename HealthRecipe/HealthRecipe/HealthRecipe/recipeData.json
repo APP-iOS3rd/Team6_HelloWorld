@@ -5,5 +5,26 @@
         "ingredient": "삼양라면 1봉",
         "cookingOrder" : "봉지 뒷면 조리법대로 끓이세요~",
         "imageName": "tesla_model_3"
+    },
+    {
+        "id": "aa32jj887hhg99",
+        "name": "폭탄 계란찜",
+        "ingredient": "재료: 달걀 2개, 대파, 간장, 소금, 설탕, 식용유",
+        "cookingOrder" : "달군 팬에 식용유를 조금 넣고 잘게 자른 대파를 볶는다. (파기름 내기)",
+        "imageName": "food1"
+    },
+    {
+        "id": "aa32jj887hjg55",
+        "name": "달걀 덮밥",
+        "ingredient": "달걀 3개, 만능간장, 식용유, 다진 대파, 고춧가루, 참기름",
+        "cookingOrder" : "만능간장 1/2소주컵 + 고춧가루 1큰 술을 넣어주며 볶는다.",
+        "imageName": "food1"
+    },
+    {
+        "id": "ab02jj887hjg55",
+        "name": "호텔식 스트램블 에그",
+        "ingredient": "달걀 3개, 우유 반컵, 소금, 설탕, 버터",
+        "cookingOrder" : "덜 익은 듯 해보일 때 내려주어야 적당히 잘 익은 스트럼블 에그 완성!",
+        "imageName": "food1"
     }
 ]
