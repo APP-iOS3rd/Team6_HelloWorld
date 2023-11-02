@@ -12,6 +12,7 @@
 		1DD230F62AF368E100DDD220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD230F52AF368E100DDD220 /* Assets.xcassets */; };
 		1DD230F92AF368E100DDD220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD230F82AF368E100DDD220 /* Preview Assets.xcassets */; };
 		1DD231002AF374C800DDD220 /* recipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DD230FF2AF374C800DDD220 /* recipeData.json */; };
+		1DD231022AF377AC00DDD220 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD231012AF377AC00DDD220 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1DD230F52AF368E100DDD220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD230F82AF368E100DDD220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DD230FF2AF374C800DDD220 /* recipeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeData.json; sourceTree = "<group>"; };
+		1DD231012AF377AC00DDD220 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				1DD230F12AF368E000DDD220 /* HealthRecipeApp.swift */,
 				1DD230F32AF368E000DDD220 /* ContentView.swift */,
 				1DD230FF2AF374C800DDD220 /* recipeData.json */,
+				1DD231012AF377AC00DDD220 /* Recipe.swift */,
 				1DD230F52AF368E100DDD220 /* Assets.xcassets */,
 				1DD230F72AF368E100DDD220 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD231022AF377AC00DDD220 /* Recipe.swift in Sources */,
 				1DD230F42AF368E000DDD220 /* ContentView.swift in Sources */,
 				1DD230F22AF368E000DDD220 /* HealthRecipeApp.swift in Sources */,
 			);
