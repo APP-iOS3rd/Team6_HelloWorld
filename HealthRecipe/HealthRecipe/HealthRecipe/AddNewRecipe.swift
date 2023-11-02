@@ -22,6 +22,11 @@ struct AddNewRecipe: View {
                     .opacity(0.5)
                 
                 
+                VStack(alignment: .leading) {
+                    FoodInput(foodTitle: "요리 이름", userInput: $name)
+                    FoodInput(foodTitle: "재료", userInput: $ingredient)
+                    FoodInput(foodTitle: "조리 방법", userInput: $cookingOrder)
+                }
                 
                 
             }header: {
@@ -35,11 +40,35 @@ struct AddNewRecipe: View {
         }
     }
 //    func addNewFoodRecipe() {
-//        let newRecipe = Recipe(id:UUID(), name:name,ingredient: ingredient,cookingOrder:cookingOrder ,imageName:"food1")
-//        
-//        
+//     let newRecipe = Recipe(id:UUID(), name:name,ingredient:        ingredient,cookingOrder:cookingOrder ,imageName:"food1")
+    
+    
+//        recipeStore.Recipes.append(newRecipe)
+    
+        //path.removeLast()
+//
 //    }
 }
+
+//새로운 레시피 상세 정보 입력을 위한 뷰
+
+struct FoodInput : View {
+    var foodTitle : String
+  
+    @Binding var userInput:String
+    
+    var body: some View {
+        VStack{
+            Text(foodTitle)
+                .font(.headline)
+            TextField("Enter \(foodTitle)", text: $userInput)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+        }
+        .padding()
+    }
+}
+
+
 
 #Preview {
     AddNewRecipe()
