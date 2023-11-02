@@ -34,16 +34,16 @@ struct AddNewRecipe: View {
             }
         }
         Button{
-            addNewFoodRecipe()
+            //addNewFoodRecipe()
         }label:{
             Text("Add Recipe")
         }
     }
-    func addNewFoodRecipe() {
-        let newRecipe = Recipe(id:UUID(), name:name,ingredient: ingredient,cookingOrder:cookingOrder ,imageName:"food1")
-        
-        
-    }
+//    func addNewFoodRecipe() {
+//        let newRecipe = Recipe(id:UUID(), name:name,ingredient: ingredient,cookingOrder:cookingOrder ,imageName:"food1")
+//        
+//        
+//    }
 }
 
 #Preview {
