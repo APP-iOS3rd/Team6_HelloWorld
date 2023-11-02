@@ -14,6 +14,7 @@
 		1DD231002AF374C800DDD220 /* recipeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DD230FF2AF374C800DDD220 /* recipeData.json */; };
 		1DD231262AF3830300DDD220 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD231252AF3830300DDD220 /* Recipe.swift */; };
 		205062E72AF377BB001FC42D /* AddNewRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205062E62AF377BB001FC42D /* AddNewRecipe.swift */; };
+		3DD7C2442AF3882200B0F158 /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7C2432AF3882200B0F158 /* RecipeStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1DD230FF2AF374C800DDD220 /* recipeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipeData.json; sourceTree = "<group>"; };
 		1DD231252AF3830300DDD220 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		205062E62AF377BB001FC42D /* AddNewRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipe.swift; sourceTree = "<group>"; };
+		3DD7C2432AF3882200B0F158 /* RecipeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				205062E62AF377BB001FC42D /* AddNewRecipe.swift */,
 				1DD230F32AF368E000DDD220 /* ContentView.swift */,
 				1DD231252AF3830300DDD220 /* Recipe.swift */,
+				3DD7C2432AF3882200B0F158 /* RecipeStore.swift */,
 				1DD230FF2AF374C800DDD220 /* recipeData.json */,
 				1DD230F52AF368E100DDD220 /* Assets.xcassets */,
 				1DD230F72AF368E100DDD220 /* Preview Content */,
@@ -151,6 +154,7 @@
 				1DD230F22AF368E000DDD220 /* HealthRecipeApp.swift in Sources */,
 				205062E72AF377BB001FC42D /* AddNewRecipe.swift in Sources */,
 				1DD231262AF3830300DDD220 /* Recipe.swift in Sources */,
+				3DD7C2442AF3882200B0F158 /* RecipeStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
