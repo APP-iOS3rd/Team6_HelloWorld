@@ -15,6 +15,7 @@
 		1DD231262AF3830300DDD220 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD231252AF3830300DDD220 /* Recipe.swift */; };
 		205062E72AF377BB001FC42D /* AddNewRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205062E62AF377BB001FC42D /* AddNewRecipe.swift */; };
 		3DD7C2442AF3882200B0F158 /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7C2432AF3882200B0F158 /* RecipeStore.swift */; };
+		605711832AF38D20009E7942 /* HealthDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605711822AF38D20009E7942 /* HealthDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1DD231252AF3830300DDD220 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		205062E62AF377BB001FC42D /* AddNewRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipe.swift; sourceTree = "<group>"; };
 		3DD7C2432AF3882200B0F158 /* RecipeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		605711822AF38D20009E7942 /* HealthDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		1DD230F02AF368E000DDD220 /* HealthRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				605711822AF38D20009E7942 /* HealthDetail.swift */,
 				1DD230F12AF368E000DDD220 /* HealthRecipeApp.swift */,
 				205062E62AF377BB001FC42D /* AddNewRecipe.swift */,
 				1DD230F32AF368E000DDD220 /* ContentView.swift */,
@@ -152,6 +155,7 @@
 			files = (
 				1DD230F42AF368E000DDD220 /* ContentView.swift in Sources */,
 				1DD230F22AF368E000DDD220 /* HealthRecipeApp.swift in Sources */,
+				605711832AF38D20009E7942 /* HealthDetail.swift in Sources */,
 				205062E72AF377BB001FC42D /* AddNewRecipe.swift in Sources */,
 				1DD231262AF3830300DDD220 /* Recipe.swift in Sources */,
 				3DD7C2442AF3882200B0F158 /* RecipeStore.swift in Sources */,
