@@ -1,9 +1,4 @@
-//
-//  AddNewRecipe.swift
-//  HealthRecipe
-//
-//  Created by YOU on 11/2/23.
-//
+
 
 import SwiftUI
 
