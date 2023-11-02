@@ -3,14 +3,14 @@
 import SwiftUI
 
 struct AddNewRecipe: View {
- //  @StateObject var foodRecipe : Recipe
+   @StateObject var recipeStore : RecipeStore
     
-//    @Binding var path : NavigationPath
+    @Binding var path : NavigationPath
 
     @State private var name :String = ""
     @State private var ingredient :String = ""
     @State private var cookingOrder :String = ""
-  /* @State private var imageName : String = "" 사진첩에서 받아와야함*/
+   @State private var imageName : String = "" //사진첩에서 받아와야함
     
     var body: some View {
         Form{
@@ -34,20 +34,20 @@ struct AddNewRecipe: View {
             }
         }
         Button{
-            //addNewFoodRecipe()
+            addNewFoodRecipe()
         }label:{
             Text("Add Recipe")
         }
     }
-//    func addNewFoodRecipe() {
-//     let newRecipe = Recipe(id:UUID(), name:name,ingredient:        ingredient,cookingOrder:cookingOrder ,imageName:"food1")
+    func addNewFoodRecipe() {
+        let newRecipe = Recipe(id:UUID().uuidString, name: name, ingredient: ingredient, cookingOrder:cookingOrder ,imageName: "food1")
     
     
-//        recipeStore.Recipes.append(newRecipe)
+        recipeStore.recipes.append(newRecipe)
     
-        //path.removeLast()
-//
-//    }
+        path.removeLast()
+
+    }
 }
 
 //새로운 레시피 상세 정보 입력을 위한 뷰
@@ -69,7 +69,7 @@ struct FoodInput : View {
 }
 
 
-
-#Preview {
-    AddNewRecipe()
-}
+//
+//#Preview {
+//    AddNewRecipe(recipeStore: RecipeStore(), path: <#Binding<NavigationPath>#>)
+//}
