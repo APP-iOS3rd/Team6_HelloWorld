@@ -1,8 +1,18 @@
-//
-//  RecipeToolbar.swift
-//  MyNewRecipe
-//
-//  Created by YOU on 11/9/23.
-//
 
-import Foundation
+/*Toolbar design*/
+
+import SwiftUI
+
+
+struct RecipeToolbar: ViewModifier{
+    func body(content: Content) -> some View {
+        content
+        .foregroundStyle(.kaleGreen)
+        .font(.headline)
+        .fontWeight(.bold)
+        .padding()
+     }
+   }
+
+
+

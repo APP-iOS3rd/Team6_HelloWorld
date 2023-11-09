@@ -1,8 +1,9 @@
-//
-//  RecipeStore.swift
-//  MyNewRecipe
-//
-//  Created by YOU on 11/9/23.
-//
-
 import Foundation
+
+class RecipeStore: ObservableObject{
+    @Published var recipes: [Recipe]
+    
+    init(recipes: [Recipe] = []) {
+        self.recipes = recipes
+    }
+}

@@ -1,8 +1,10 @@
-//
-//  Recipe.swift
-//  MyNewRecipe
-//
-//  Created by YOU on 11/9/23.
-//
+import SwiftUI
 
-import Foundation
+struct Recipe: Codable, Identifiable {
+    var id: String
+    var name: String
+    var cookingTime :String
+    var ingredient: String
+    var cookingOrder: String
+    var imageName: String
+}
