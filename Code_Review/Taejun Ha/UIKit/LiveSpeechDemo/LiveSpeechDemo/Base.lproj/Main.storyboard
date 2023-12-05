@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LiveSpeechDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sVl-by-ojK">
+                                <rect key="frame" x="32" y="257" width="329" height="529"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVl-eG-iwI">
+                                <rect key="frame" x="64" y="123" width="265" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                <connections>
+                                    <action selector="startTranscribing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfF-Hw-oEU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCB-BX-lHL">
+                                <rect key="frame" x="64" y="190" width="265" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop"/>
+                                <connections>
+                                    <action selector="stopTranscribing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OtP-v1-2Aq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sVl-by-ojK" firstAttribute="top" secondItem="hCB-BX-lHL" secondAttribute="bottom" constant="32" id="4hQ-J0-CFE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JVl-eG-iwI" secondAttribute="trailing" constant="64" id="6mA-dk-P7e"/>
+                            <constraint firstItem="hCB-BX-lHL" firstAttribute="top" secondItem="JVl-eG-iwI" secondAttribute="bottom" constant="32" id="K0P-5A-UJy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sVl-by-ojK" secondAttribute="trailing" constant="32" id="PNw-Rk-gw3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hCB-BX-lHL" secondAttribute="trailing" constant="64" id="TCA-tc-caA"/>
+                            <constraint firstItem="JVl-eG-iwI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="Ur1-fI-oKj"/>
+                            <constraint firstItem="hCB-BX-lHL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="Wx3-uo-1Wa"/>
+                            <constraint firstItem="JVl-eG-iwI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="sSc-6k-IXO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sVl-by-ojK" secondAttribute="bottom" constant="32" id="sTS-cf-RXs"/>
+                            <constraint firstItem="sVl-by-ojK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="u6L-Fl-Jdn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myTextView" destination="sVl-by-ojK" id="XcR-OO-TYw"/>
+                        <outlet property="stopButton" destination="hCB-BX-lHL" id="wwQ-hL-QBR"/>
+                        <outlet property="transcribeButton" destination="JVl-eG-iwI" id="Rel-Uo-scf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
